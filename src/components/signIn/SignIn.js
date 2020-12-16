@@ -22,7 +22,7 @@ class SignIn extends React.Component {
     try {
       auth.signInWithEmailAndPassword(email, password);
       this.setState({ email: "", password: "" });
-    } catch (error) {
+    } catch (error ) {
       console.error(error);
     }
   };
