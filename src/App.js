@@ -43,7 +43,7 @@ class App extends React.Component {
     return (
 <div>      
 
-{console.log(this,"game")}
+
 
   <Header />
         <Switch>
